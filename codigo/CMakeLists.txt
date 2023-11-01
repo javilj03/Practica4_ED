@@ -8,6 +8,7 @@ set(BASE_FOLDER estudiante)
 include_directories(${BASE_FOLDER}/include)
 add_library(maxstack ${BASE_FOLDER}/src/maxstack.cpp)
 add_library(maxqueue ${BASE_FOLDER}/src/maxqueue.cpp)
+add_library(elemento ${BASE_FOLDER}/src/elemento.cpp)
 
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/pila_max.cpp)
     add_executable(pila_max ${BASE_FOLDER}/src/pila_max.cpp)
@@ -16,7 +17,7 @@ endif()
 
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/cola_max.cpp)
     add_executable(cola_max ${BASE_FOLDER}/src/cola_max.cpp)
-    target_link_libraries(cola_max maxqueue)
+    target_link_libraries(cola_max maxqueue elemento)
 endif()
 
 # check if Doxygen is installed
