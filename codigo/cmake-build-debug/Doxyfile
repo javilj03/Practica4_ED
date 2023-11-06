@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 2. Pilas y Colas"
+OUTPUT_DIRECTORY       = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/doc
+EXTRACT_PRIVATE	       = NO

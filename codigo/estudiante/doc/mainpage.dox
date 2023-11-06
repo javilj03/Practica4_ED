@@ -1,11 +1,19 @@
-/*! \mainpage Título de la página principal
+/*! \mainpage Pilas como colas y colas como pilas.
 
 # Introducción
 
-A RELLENAR POR EL ESTUDIANTE
+En este proyecto se ha propuesto realizar la estructura de las pilas usando colas y al contrario.
+Además en cada posición de la cola o de la pila debe aparecer su valor junto a el máximo.
+
+Como estas estructuras de datos permiten almacenar cualquier tipo de dato que se le indique, hemos creado un objeto llamado *elemento* que almacena dos enteros,
+el primero el valor de esa posición de la pila o cola y el segundo el máximo valor.
 
 # Ejecutables
 
-A RELLENAR POR EL ESTUDIANTE
+> __cola_max__ \<Valor\>
+@param "<Valor>"  Aceptará dos opciones: **Número entero** que se insertará en la cola o <b>"."</b> que mostrará el elemento del frente de la cola y lo eliminará.
+
+> __pila_max__ \<Valor\>
+@param "<Valor>"  Aceptará dos opciones: **Número entero** que se insertará en la pila o <b>"."</b> que mostrará el elemento de lo mas alto de la pila y lo eliminará.
 
 */
