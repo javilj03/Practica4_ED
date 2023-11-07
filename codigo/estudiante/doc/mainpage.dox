@@ -19,7 +19,7 @@ el primero el valor de esa posición de la pila o cola y el segundo el máximo v
 @htmlonly
 <footer style="background:#302ea3; color:white; padding:10px 20px;">
   <p>Hecho por: <a href="https://github.com/javilj03">Javier Lama Jiménez</a> y <a href="https://github.com/IvanFrison">Ivan Rodríguez Chacón</a></p>
-  <p><a href="https://github.com/javilj03/Practica3_ED.git">Repositorio</a></p>
+  <p><a href="https://github.com/javilj03/Practica4_ED.git">Repositorio</a></p>
 </footer>
 @endhtmlonly
 
