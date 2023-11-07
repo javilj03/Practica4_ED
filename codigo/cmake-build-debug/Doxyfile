@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Práctica 2. Pilas y Colas"
-OUTPUT_DIRECTORY       = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug/doc_doxygen/
-INPUT                  = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/doc
+OUTPUT_DIRECTORY       = C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/doc_doxygen/
+INPUT                  = C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/doc
 GENERATE_LATEX         = NO
-IMAGE_PATH             = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/doc
+IMAGE_PATH             = C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/doc
 EXTRACT_PRIVATE	       = NO

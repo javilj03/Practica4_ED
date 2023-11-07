@@ -1,7 +1,7 @@
 /**
  * @file maxstack.h
  * @brief  Archivo de especificación del TDA MaxStack
- * @author
+ * @author Javier Lama Jiménez
  */
 
 #include <queue>
@@ -25,6 +25,7 @@ public:
 
      /**
       * @brief Método para añadir un elemento a la pila
+      * @elem val Elemento a añadir.
       */
       void push(int val);
 

@@ -8,7 +8,10 @@
 using namespace std;
 
 int main(int argc, char *argv[]){
-
+    if(argc < 1) {
+        cerr << "Introduzca al menos un argumento." << endl;
+        return 1;
+    }
      // Run the current exercise
     MaxStack stack;
 

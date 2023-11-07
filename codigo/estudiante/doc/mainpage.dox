@@ -16,4 +16,11 @@ el primero el valor de esa posición de la pila o cola y el segundo el máximo v
 > __pila_max__ \<Valor\>
 @param "<Valor>"  Aceptará dos opciones: **Número entero** que se insertará en la pila o <b>"."</b> que mostrará el elemento de lo mas alto de la pila y lo eliminará.
 
+@htmlonly
+<footer style="background:#302ea3; color:white; padding:10px 20px;">
+  <p>Hecho por: <a href="https://github.com/javilj03">Javier Lama Jiménez</a> y <a href="https://github.com/IvanFrison">Ivan Rodríguez Chacón</a></p>
+  <p><a href="https://github.com/javilj03/Practica3_ED.git">Repositorio</a></p>
+</footer>
+@endhtmlonly
+
 */

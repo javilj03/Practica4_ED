@@ -1,6 +1,6 @@
 /**
  * @file elemento.cpp
- * @brief Este fichero tiene la implementacion de los métodos del struct elemento.
+ * @brief Este fichero tiene la implementación de los métodos del struct elemento.
  */
 #include "elemento.h"
 

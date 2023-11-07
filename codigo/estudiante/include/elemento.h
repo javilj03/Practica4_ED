@@ -1,6 +1,6 @@
 /**
  * @file elemento.h
- * @brief Cabecera del struct elemento usado para organizar el valor y el maximo en las pilas y colas
+ * @brief Cabecera del struct elemento usado para organizar el valor y el máximo en las pilas y colas
  */
 
 #ifndef P03_PILAS_COLAS_ELEMENTO_H
