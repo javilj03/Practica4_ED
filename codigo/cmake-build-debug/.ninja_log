@@ -1,0 +1,15 @@
+# ninja log v5
+5	385	7205611803688541	CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj	b7ac6543278c5584
+7	334	7205612379758705	libelemento.a	7fb8da98b51c3090
+1	41	7205612500369762	CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.obj	5c78dd6086768dae
+42	90	7205612500860632	libmaxstack.a	e06760cc0eb70361
+6	337	7205612718578998	CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.obj	fc095d2b666d517d
+3	380	7205612719010017	CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj	26f82652e6277401
+380	438	7205612719590016	libmaxqueue.a	cd388a73cb6fae79
+438	614	7205612721314494	cola_max.exe	5bef6a5521325604
+3	348	7205615777017175	CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj	26f82652e6277401
+349	424	7205615777778046	libmaxqueue.a	cd388a73cb6fae79
+425	507	7205615778578045	cola_max.exe	5bef6a5521325604
+3	263	7205616082429175	CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj	b7ac6543278c5584
+263	309	7205616082890065	libelemento.a	7fb8da98b51c3090
+309	387	7205616083650062	cola_max.exe	5bef6a5521325604
