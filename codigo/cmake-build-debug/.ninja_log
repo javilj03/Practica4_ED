@@ -1,10 +1,10 @@
 # ninja log v5
-266	313	7210724858254771	libelemento.a	7fb8da98b51c3090
-0	32	0	CMakeFiles/doc_doxygen	75d2d221977d4daf
 455	510	7210725283288279	libmaxqueue.a	cd388a73cb6fae79
 2	265	7210724857783664	CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj	b7ac6543278c5584
+0	96	0	CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
+266	313	7210724858254771	libelemento.a	7fb8da98b51c3090
 482	532	7210728046037853	libmaxstack.a	e06760cc0eb70361
-0	39	7210734511469300	build.ninja	cdbc998834e9021f
+0	39	7210740117185184	build.ninja	cdbc998834e9021f
 381	437	1699273950588059668	pila_max	80bce9311486337f
 6	542	7210728046147836	CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.obj	55213e32cb7160bf
 2	481	7210728045536673	CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.obj	5c78dd6086768dae
@@ -12,7 +12,7 @@
 7	428	7210725282447288	CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.obj	fc095d2b666d517d
 3	455	7210725282723824	CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj	26f82652e6277401
 510	590	7210725284068901	cola_max.exe	5bef6a5521325604
-1	134	0	CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
-1	134	0	C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
-0	96	0	CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
 0	96	0	C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
+1	176	7210740117185184	build.ninja	396e2e2912849de0
+0	100	0	CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
+0	100	0	C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/CMakeFiles/doc_doxygen	4ac8818b58c7aeb3
