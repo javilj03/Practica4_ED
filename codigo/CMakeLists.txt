@@ -12,7 +12,7 @@ add_library(elemento ${BASE_FOLDER}/src/elemento.cpp)
 
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/pila_max.cpp)
     add_executable(pila_max ${BASE_FOLDER}/src/pila_max.cpp)
-    target_link_libraries(pila_max maxstack)
+    target_link_libraries(pila_max maxstack elemento)
 endif()
 
 if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/cola_max.cpp)

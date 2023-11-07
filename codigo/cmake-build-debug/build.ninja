@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/
+cmake_ninja_workdir = /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target maxstack
 
@@ -49,12 +49,12 @@ cmake_ninja_workdir = C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_E
 
 build cmake_object_order_depends_target_maxstack: phony || CMakeFiles/maxstack.dir
 
-build CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.obj: CXX_COMPILER__maxstack_unscanned_Debug C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src/maxstack.cpp || cmake_object_order_depends_target_maxstack
-  DEP_FILE = CMakeFiles\maxstack.dir\estudiante\src\maxstack.cpp.obj.d
+build CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.o: CXX_COMPILER__maxstack_unscanned_Debug /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src/maxstack.cpp || cmake_object_order_depends_target_maxstack
+  DEP_FILE = CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include
-  OBJECT_DIR = CMakeFiles\maxstack.dir
-  OBJECT_FILE_DIR = CMakeFiles\maxstack.dir\estudiante\src
+  INCLUDES = -I/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include
+  OBJECT_DIR = CMakeFiles/maxstack.dir
+  OBJECT_FILE_DIR = CMakeFiles/maxstack.dir/estudiante/src
 
 
 # =============================================================================
@@ -64,11 +64,11 @@ build CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.obj: CXX_COMPILER__max
 #############################################
 # Link the static library libmaxstack.a
 
-build libmaxstack.a: CXX_STATIC_LIBRARY_LINKER__maxstack_Debug CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.obj
+build libmaxstack.a: CXX_STATIC_LIBRARY_LINKER__maxstack_Debug CMakeFiles/maxstack.dir/estudiante/src/maxstack.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\maxstack.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
+  OBJECT_DIR = CMakeFiles/maxstack.dir
+  POST_BUILD = :
+  PRE_LINK = :
   TARGET_FILE = libmaxstack.a
   TARGET_PDB = maxstack.a.dbg
 
@@ -81,12 +81,12 @@ build libmaxstack.a: CXX_STATIC_LIBRARY_LINKER__maxstack_Debug CMakeFiles/maxsta
 
 build cmake_object_order_depends_target_maxqueue: phony || CMakeFiles/maxqueue.dir
 
-build CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj: CXX_COMPILER__maxqueue_unscanned_Debug C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src/maxqueue.cpp || cmake_object_order_depends_target_maxqueue
-  DEP_FILE = CMakeFiles\maxqueue.dir\estudiante\src\maxqueue.cpp.obj.d
+build CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.o: CXX_COMPILER__maxqueue_unscanned_Debug /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src/maxqueue.cpp || cmake_object_order_depends_target_maxqueue
+  DEP_FILE = CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include
-  OBJECT_DIR = CMakeFiles\maxqueue.dir
-  OBJECT_FILE_DIR = CMakeFiles\maxqueue.dir\estudiante\src
+  INCLUDES = -I/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include
+  OBJECT_DIR = CMakeFiles/maxqueue.dir
+  OBJECT_FILE_DIR = CMakeFiles/maxqueue.dir/estudiante/src
 
 
 # =============================================================================
@@ -96,11 +96,11 @@ build CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj: CXX_COMPILER__max
 #############################################
 # Link the static library libmaxqueue.a
 
-build libmaxqueue.a: CXX_STATIC_LIBRARY_LINKER__maxqueue_Debug CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.obj
+build libmaxqueue.a: CXX_STATIC_LIBRARY_LINKER__maxqueue_Debug CMakeFiles/maxqueue.dir/estudiante/src/maxqueue.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\maxqueue.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
+  OBJECT_DIR = CMakeFiles/maxqueue.dir
+  POST_BUILD = :
+  PRE_LINK = :
   TARGET_FILE = libmaxqueue.a
   TARGET_PDB = maxqueue.a.dbg
 
@@ -113,12 +113,12 @@ build libmaxqueue.a: CXX_STATIC_LIBRARY_LINKER__maxqueue_Debug CMakeFiles/maxque
 
 build cmake_object_order_depends_target_elemento: phony || CMakeFiles/elemento.dir
 
-build CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj: CXX_COMPILER__elemento_unscanned_Debug C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src/elemento.cpp || cmake_object_order_depends_target_elemento
-  DEP_FILE = CMakeFiles\elemento.dir\estudiante\src\elemento.cpp.obj.d
+build CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.o: CXX_COMPILER__elemento_unscanned_Debug /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src/elemento.cpp || cmake_object_order_depends_target_elemento
+  DEP_FILE = CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include
-  OBJECT_DIR = CMakeFiles\elemento.dir
-  OBJECT_FILE_DIR = CMakeFiles\elemento.dir\estudiante\src
+  INCLUDES = -I/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include
+  OBJECT_DIR = CMakeFiles/elemento.dir
+  OBJECT_FILE_DIR = CMakeFiles/elemento.dir/estudiante/src
 
 
 # =============================================================================
@@ -128,11 +128,11 @@ build CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj: CXX_COMPILER__ele
 #############################################
 # Link the static library libelemento.a
 
-build libelemento.a: CXX_STATIC_LIBRARY_LINKER__elemento_Debug CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.obj
+build libelemento.a: CXX_STATIC_LIBRARY_LINKER__elemento_Debug CMakeFiles/elemento.dir/estudiante/src/elemento.cpp.o
   LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = CMakeFiles\elemento.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
+  OBJECT_DIR = CMakeFiles/elemento.dir
+  POST_BUILD = :
+  PRE_LINK = :
   TARGET_FILE = libelemento.a
   TARGET_PDB = elemento.a.dbg
 
@@ -143,14 +143,14 @@ build libelemento.a: CXX_STATIC_LIBRARY_LINKER__elemento_Debug CMakeFiles/elemen
 #############################################
 # Order-only phony target for pila_max
 
-build cmake_object_order_depends_target_pila_max: phony || cmake_object_order_depends_target_maxstack
+build cmake_object_order_depends_target_pila_max: phony || cmake_object_order_depends_target_elemento cmake_object_order_depends_target_maxstack
 
-build CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.obj: CXX_COMPILER__pila_max_unscanned_Debug C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src/pila_max.cpp || cmake_object_order_depends_target_pila_max
-  DEP_FILE = CMakeFiles\pila_max.dir\estudiante\src\pila_max.cpp.obj.d
+build CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.o: CXX_COMPILER__pila_max_unscanned_Debug /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src/pila_max.cpp || cmake_object_order_depends_target_pila_max
+  DEP_FILE = CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include
-  OBJECT_DIR = CMakeFiles\pila_max.dir
-  OBJECT_FILE_DIR = CMakeFiles\pila_max.dir\estudiante\src
+  INCLUDES = -I/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include
+  OBJECT_DIR = CMakeFiles/pila_max.dir
+  OBJECT_FILE_DIR = CMakeFiles/pila_max.dir/estudiante/src
 
 
 # =============================================================================
@@ -158,17 +158,16 @@ build CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.obj: CXX_COMPILER__pil
 
 
 #############################################
-# Link the executable pila_max.exe
+# Link the executable pila_max
 
-build pila_max.exe: CXX_EXECUTABLE_LINKER__pila_max_Debug CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.obj | libmaxstack.a || libmaxstack.a
+build pila_max: CXX_EXECUTABLE_LINKER__pila_max_Debug CMakeFiles/pila_max.dir/estudiante/src/pila_max.cpp.o | libmaxstack.a libelemento.a || libelemento.a libmaxstack.a
   FLAGS = -g
-  LINK_LIBRARIES = libmaxstack.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\pila_max.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = pila_max.exe
-  TARGET_IMPLIB = libpila_max.dll.a
-  TARGET_PDB = pila_max.exe.dbg
+  LINK_LIBRARIES = libmaxstack.a  libelemento.a
+  OBJECT_DIR = CMakeFiles/pila_max.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pila_max
+  TARGET_PDB = pila_max.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target cola_max
@@ -179,12 +178,12 @@ build pila_max.exe: CXX_EXECUTABLE_LINKER__pila_max_Debug CMakeFiles/pila_max.di
 
 build cmake_object_order_depends_target_cola_max: phony || cmake_object_order_depends_target_elemento cmake_object_order_depends_target_maxqueue
 
-build CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.obj: CXX_COMPILER__cola_max_unscanned_Debug C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/src/cola_max.cpp || cmake_object_order_depends_target_cola_max
-  DEP_FILE = CMakeFiles\cola_max.dir\estudiante\src\cola_max.cpp.obj.d
+build CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.o: CXX_COMPILER__cola_max_unscanned_Debug /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/src/cola_max.cpp || cmake_object_order_depends_target_cola_max
+  DEP_FILE = CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.o.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  INCLUDES = -IC:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/estudiante/include
-  OBJECT_DIR = CMakeFiles\cola_max.dir
-  OBJECT_FILE_DIR = CMakeFiles\cola_max.dir\estudiante\src
+  INCLUDES = -I/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante/include
+  OBJECT_DIR = CMakeFiles/cola_max.dir
+  OBJECT_FILE_DIR = CMakeFiles/cola_max.dir/estudiante/src
 
 
 # =============================================================================
@@ -192,17 +191,16 @@ build CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.obj: CXX_COMPILER__col
 
 
 #############################################
-# Link the executable cola_max.exe
+# Link the executable cola_max
 
-build cola_max.exe: CXX_EXECUTABLE_LINKER__cola_max_Debug CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.obj | libmaxqueue.a libelemento.a || libelemento.a libmaxqueue.a
+build cola_max: CXX_EXECUTABLE_LINKER__cola_max_Debug CMakeFiles/cola_max.dir/estudiante/src/cola_max.cpp.o | libmaxqueue.a libelemento.a || libelemento.a libmaxqueue.a
   FLAGS = -g
-  LINK_LIBRARIES = libmaxqueue.a  libelemento.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\cola_max.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = cola_max.exe
-  TARGET_IMPLIB = libcola_max.dll.a
-  TARGET_PDB = cola_max.exe.dbg
+  LINK_LIBRARIES = libmaxqueue.a  libelemento.a
+  OBJECT_DIR = CMakeFiles/cola_max.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cola_max
+  TARGET_PDB = cola_max.dbg
 
 
 #############################################
@@ -215,7 +213,7 @@ build doc_doxygen: phony CMakeFiles/doc_doxygen
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ivanf\Desktop\Universidad\Segundo\ED\Practica4_ED\codigo\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cd /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug && /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -226,7 +224,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ivanf\Desktop\Universidad\Segundo\ED\Practica4_ED\codigo\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\ivanf\Desktop\Universidad\Segundo\ED\Practica4_ED\codigo -BC:\Users\ivanf\Desktop\Universidad\Segundo\ED\Practica4_ED\codigo\cmake-build-debug"
+  COMMAND = cd /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug && /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo -B/home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -235,16 +233,14 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Custom command for CMakeFiles\doc_doxygen
+# Custom command for CMakeFiles/doc_doxygen
 
 build CMakeFiles/doc_doxygen | ${cmake_ninja_workdir}CMakeFiles/doc_doxygen: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ivanf\Desktop\Universidad\Segundo\ED\Practica4_ED\codigo\estudiante && "C:\Program Files\doxygen\bin\doxygen.exe" C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug/Doxyfile"
+  COMMAND = cd /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/estudiante && /usr/bin/doxygen /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug/Doxyfile
   DESC = Generating API documentation with Doxygen
 
 # =============================================================================
 # Target aliases.
-
-build cola_max: phony cola_max.exe
 
 build elemento: phony libelemento.a
 
@@ -252,17 +248,15 @@ build maxqueue: phony libmaxqueue.a
 
 build maxstack: phony libmaxstack.a
 
-build pila_max: phony pila_max.exe
-
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/cmake-build-debug
+# Folder: /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/cmake-build-debug
 
-build all: phony libmaxstack.a libmaxqueue.a libelemento.a pila_max.exe cola_max.exe doc_doxygen
+build all: phony libmaxstack.a libmaxqueue.a libelemento.a pila_max cola_max doc_doxygen
 
 # =============================================================================
 # Built-in targets
@@ -271,14 +265,14 @@ build all: phony libmaxstack.a libmaxqueue.a libelemento.a pila_max.exe cola_max
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/CMakeLists.txt C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/Doxyfile.in CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/CMakeLists.txt /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/Doxyfile.in /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindDoxygen.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindDoxygen.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/CMakeLists.txt C$:/Users/ivanf/Desktop/Universidad/Segundo/ED/Practica4_ED/codigo/Doxyfile.in CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/CMakeLists.txt /home/lamadindon/Documentos/ObsidianVaultEstudios/Universidad/2/PrimerCuatri/ED/Practicas/Practica4_ED/codigo/Doxyfile.in /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindDoxygen.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
